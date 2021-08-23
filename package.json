@@ -1,0 +1,33 @@
+{
+  "name": "paw-bitwarden-auth-dynamic-value",
+  "version": "1.0.0",
+  "description": "A dynamic value extension for Paw for Bitwarden username and password authentication",
+  "author": "Jozef Bíroš <jozer.biros91@gmail.com> (https://github.com/jbiros91)",
+  "main": "src/BitwardenAuthDynamicValue.js",
+  "licens": "MIT",
+  "keywords": ["bitwarden", "authentication", "authorization", "paw", "extension"],
+  "homepage": "https://github.com/jbiros91/paw-bitwarden-auth-dynamic-value",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jbiros91/paw-bitwarden-auth-dynamic-value.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf build/ && webpack"
+  },
+  "dependencies": {
+    "buffer": "6.0.3",
+    "pbkdf2": "3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.0",
+    "@babel/plugin-proposal-decorators": "7.14.5",
+    "@babel/plugin-transform-runtime": "7.15.0",
+    "@babel/preset-env": "7.15.0",
+    "babel-loader": "8.2.2",
+    "jest": "27.0.6",
+    "sinon": "11.1.2",
+    "webpack": "5.51.1",
+    "webpack-cli": "4.8.0"
+  }
+}
